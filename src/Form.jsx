@@ -14,7 +14,7 @@ export default function Form() {
 
   async function api() {
     const request = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=no`
+      `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=no`
     );
     const data = await request.json();
 
