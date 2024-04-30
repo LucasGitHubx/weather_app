@@ -1,0 +1,17 @@
+form{
+    padding: .5rem;
+}
+input{
+    padding: .2rem .5rem;
+    border: 1px solid gray;
+}
+button{
+    padding: .25rem;
+    width: 70px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 8px 8px 0;
+    background-color: #6666fc;
+    cursor: pointer;
+}

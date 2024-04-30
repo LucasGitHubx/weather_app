@@ -1,0 +1,29 @@
+h1{
+    opacity: .7;
+}
+h2{
+    text-align: center;
+    font-weight: 100;
+}
+h2 span{
+    display: inline;
+    font-weight:lighter;
+}
+span{
+    display: block;
+    text-align: center;
+    margin-top: .5rem;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.img-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.day{
+    text-align: center;
+}
